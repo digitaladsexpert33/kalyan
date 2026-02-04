@@ -1,254 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover"/>
-<meta name="theme-color" content="#0a0a0a"/>
-
-<title>Kalyan Market — Download App</title>
-<meta name="description" content="Kalyan Market App – fast withdrawals, verified platform, 24/7 support."/>
-
-<!-- Meta Pixel -->
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+  <meta name="theme-color" content="#0a0a0a"/>
+  
+  <!-- Meta Pixel Code -->
 <script>
-!function(f,b,e,v,n,t,s){
-if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
 if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
 n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)
-}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init','835954062168832');
-fbq('track','PageView');
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '835954062168832');
+fbq('track', 'PageView');
 </script>
+<noscript>
+  <img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=835954062168832&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Meta Pixel Code -->
 
-<style>
-:root{
-  --bg:#0a0a0a;
-  --card:#121214;
-  --gold:#FFD166;
-  --gold-2:#F4C542;
-  --text:#ECEDEE;
-  --muted:#9fa4aa;
-  --line:#1b1c20;
-}
 
-*{box-sizing:border-box}
-html,body{
-  margin:0;
-  padding:0;
-  background:var(--bg);
-  color:var(--text);
-  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
-  overflow-x:hidden;
-}
+  <title>KalyanM — Download App</title>
+  <link rel="preconnect" href="https://sara777matka.co" crossorigin>
+  <link rel="dns-prefetch" href="//sara777matka.co">
 
-.wrap{padding-bottom:120px}
-.container{max-width:520px;margin:0 auto;padding:16px}
+  <style>
+    :root{
+      --bg:#0a0a0a; --card:#121214; --gold:#FFD166; --gold-2:#F4C542;
+      --text:#ECEDEE; --muted:#9fa4aa; --line:#1b1c20; --ring:rgba(244,197,66,.35);
+    }
+    *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+    html,body{height:100%}
+    body{
+      margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+      color:var(--text);background:#0a0a0a;
+      background-image:
+        radial-gradient(900px 420px at 100% -10%,rgba(244,197,66,.08),transparent 60%),
+        radial-gradient(700px 420px at 0% 100%,rgba(244,197,66,.06),transparent 60%);
+    }
+    .wrap{min-height:100%;padding-bottom:104px}
+    .container{max-width:520px;margin:0 auto;padding:16px}
+    .card{
+      background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,.01)),var(--card);
+      border:1px solid var(--line); border-radius:18px; padding:16px; position:relative;
+      box-shadow:0 0 0 1px rgba(255,255,255,.02) inset, 0 20px 60px rgba(0,0,0,.55), 0 0 80px var(--ring);
+    }
+    .badge{position:absolute;top:10px;right:10px; padding:6px 10px; border-radius:999px;
+      background:linear-gradient(135deg,var(--gold),var(--gold-2)); color:#1a1400; font-size:12px; font-weight:700}
+    .header{display:flex;gap:12px; align-items:center}
+    .logo{width:68px;height:68px;border-radius:16px;object-fit:cover;flex:0 0 auto;
+      box-shadow:0 0 0 3px #191919, 0 0 0 5px rgba(244,197,66,.25)}
+    .title{font-size:18px;font-weight:800;margin:0 0 2px;
+      background:linear-gradient(135deg,var(--gold),#fff);
+      -webkit-background-clip:text;background-clip:text;color:transparent}
+    .sub{font-size:13px;color:var(--muted);margin:0}
+    .rating{display:flex;align-items:center;gap:6px;margin-top:6px}
+    .stars{font-size:14px;letter-spacing:1px}
 
-.card{
-  background:var(--card);
-  border:1px solid var(--line);
-  border-radius:18px;
-  padding:16px;
-  box-shadow:0 20px 60px rgba(0,0,0,.6);
-}
+    .ribbon{
+      margin:12px 0 0; display:inline-flex; align-items:center; gap:8px;
+      padding:8px 10px; border-radius:10px;
+      border:1px dashed rgba(244,197,66,.4);
+      background:linear-gradient(90deg,rgba(244,197,66,.14),transparent);
+      color:var(--gold); font-size:12px; font-weight:700;
+    }
+    .ticker{
+      margin-top:10px; border:1px solid var(--line); border-radius:12px; overflow:hidden;
+      background:#0e0f12; position:relative; height:34px;
+    }
+    .ticker__track{
+      position:absolute; white-space:nowrap; will-change:transform; padding:8px 12px;
+      animation:scrollLeft 14s linear infinite; color:#d9bd6a; font-size:13px;
+    }
+    @keyframes scrollLeft{from{transform:translateX(0)} to{transform:translateX(-50%)}}
 
-.header{display:flex;gap:12px;align-items:center}
-.logo{
-  width:68px;height:68px;border-radius:16px;
-  background:#000;
-}
-.title{
-  font-size:20px;font-weight:900;
-  background:linear-gradient(135deg,var(--gold),#fff);
-  -webkit-background-clip:text;
-  color:transparent;
-}
-.sub{font-size:13px;color:var(--muted)}
+    .block{margin-top:14px}
+    .head{color:var(--gold);font-weight:800;font-size:14px;display:flex;align-items:center;gap:8px}
+    .features{margin:10px 0 0; padding:0; list-style:none; border:1px solid var(--line); border-radius:14px; overflow:hidden; background:#0e0f12}
+    .features li{display:flex; gap:10px; align-items:center; padding:12px; border-bottom:1px solid #17181c; font-size:14px}
+    .ic{width:28px;height:28px;border-radius:8px;display:grid;place-items:center}
+    .note{font-size:12.5px;color:#b6b8bc;margin:8px 2px 0}
+    .disclaimer{margin:14px 4px 0; font-size:12px; color:#8b8f95; line-height:1.5}
+    .compliance{margin:8px 4px 0; font-size:11.5px; color:#a6a9ad}
 
-.features{
-  list-style:none;padding:0;margin:14px 0 0;
-  border:1px solid var(--line);
-  border-radius:14px;
-  overflow:hidden;
-}
-.features li{
-  padding:12px;
-  border-bottom:1px solid #17181c;
-  font-size:14px;
-}
-
-/* ===== Sticky CTA ===== */
-.sticky{
-  position:fixed;
-  inset:auto 0 0 0;
-  z-index:9999;
-  padding:10px 12px calc(10px + env(safe-area-inset-bottom));
-  background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.5) 25%,#0a0a0a 50%);
-  backdrop-filter:blur(8px);
-}
-
-.cta{
-  width:100%;
-  max-width:520px;
-  margin:0 auto;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  gap:8px;
-  padding:15px;
-  border-radius:999px;
-  background:linear-gradient(135deg,var(--gold),var(--gold-2));
-  color:#1a1400;
-  font-weight:900;
-  font-size:17px;
-  text-decoration:none;
-  box-shadow:0 10px 34px rgba(244,197,66,.45);
-  animation:ctaPulse 3.5s ease-in-out infinite;
-}
-
-.cta:active{animation-play-state:paused}
-
-@keyframes ctaPulse{
-  0%{transform:scale(1)}
-  40%{transform:scale(1.05)}
-  100%{transform:scale(1)}
-}
-
-/* ===== Install Loader ===== */
-.install-overlay{
-  position:fixed;
-  inset:0;
-  background:rgba(10,10,10,.94);
-  backdrop-filter:blur(6px);
-  display:none;
-  align-items:center;
-  justify-content:center;
-  z-index:10000;
-}
-
-.install-box{
-  width:90%;
-  max-width:360px;
-  background:#121214;
-  border-radius:18px;
-  padding:20px;
-  text-align:center;
-  border:1px solid var(--line);
-}
-
-.install-title{
-  font-weight:900;
-  margin-bottom:14px;
-  background:linear-gradient(135deg,var(--gold),#fff);
-  -webkit-background-clip:text;
-  color:transparent;
-}
-
-.progress-bar{
-  height:12px;
-  background:#0e0f12;
-  border-radius:999px;
-  overflow:hidden;
-  border:1px solid var(--line);
-}
-
-.progress-bar div{
-  height:100%;
-  width:0%;
-  background:linear-gradient(90deg,var(--gold),var(--gold-2));
-  transition:width .4s ease;
-}
-
-.progress-text{
-  margin-top:10px;
-  font-size:13px;
-  color:#d9bd6a;
-  font-weight:700;
-}
-
-.install-note{
-  margin-top:12px;
-  font-size:11.5px;
-  color:#9fa4aa;
-}
-</style>
+    .sticky{
+      position:fixed; left:0; right:0; bottom:0; z-index:50; padding:10px 12px;
+      background:linear-gradient(180deg,rgba(0,0,0,.0),rgba(0,0,0,.4) 12%, #0a0a0ae6 30%);
+      backdrop-filter:saturate(1.1) blur(6px);
+    }
+    .cta{
+      position:relative; display:flex; align-items:center; justify-content:center; gap:8px;
+      width:100%; max-width:520px; margin:0 auto;
+      background:linear-gradient(135deg,var(--gold),var(--gold-2));
+      color:#1f1600; text-decoration:none; font-weight:900;
+      padding:14px 18px; border-radius:999px; font-size:17px;
+      box-shadow:0 10px 34px rgba(244,197,66,.45);
+      overflow:hidden;
+    }
+    .mini{font-size:11.5px; color:#2b2100; opacity:.8}
+    .cta-fomo{max-width:520px; margin:4px auto 0; text-align:center; font-size:12.5px; color:#d9bd6a;}
+  </style>
 </head>
-
 <body>
 
-<div class="wrap">
-  <div class="container">
-    <div class="card">
-      <div class="header">
-        <div class="logo"></div>
-        <div>
-          <div class="title">Kalyan Market</div>
-          <div class="sub">Fast & Secure Withdrawals</div>
+  <div class="wrap">
+    <div class="container">
+      <article class="card">
+        <span class="badge">Limited-time</span>
+
+        <header class="header">
+          <img class="logo" loading="lazy" alt="Sara777 Logo"
+            src="kalyan.jpg">
+          <div>
+            <h1 class="title">Kalyan Market</h1>
+            <p class="sub">Fast & secure withdrawals • Gold edition UI</p>
+            <div class="rating">
+              <div class="stars">⭐️⭐️⭐️⭐️☆</div>
+              <small class="sub"><span id="liveUsers">2,173</span> users active now</small>
+            </div>
+          </div>
+        </header>
+
+        <span class="ribbon">Verified by 50,000+ members</span>
+
+        <div class="ticker">
+          <div class="ticker__track" id="tickerTrack">
+            ⏳ Today’s special tips dropping soon • ⚡ Instant auto-withdrawal enabled • 🛡️ 100% verified app • 🎯 Join before the next update •
+            ⏳ Today’s special tips dropping soon • ⚡ Instant auto-withdrawal enabled • 🛡️ 100% verified app • 🎯 Join before the next update •
+          </div>
         </div>
-      </div>
 
-      <ul class="features">
-        <li>₹200 Minimum Deposit</li>
-        <li>₹1,000 Minimum Withdrawal</li>
-        <li>⚡ 24×7 Auto Withdraw</li>
-        <li>🔐 100% Verified App</li>
-        <li>📞 24×7 Support</li>
-      </ul>
+        <section class="block">
+          <div class="head">★ Features</div>
+          <ul class="features">
+            <li><span class="ic">₹</span><b>Minimum Deposit:</b>&nbsp;₹200</li>
+            <li><span class="ic">🏧</span><b>Minimum Withdrawal:</b>&nbsp;₹1,000</li>
+            <li><span class="ic">⚡</span><b>Auto Withdrawal:</b>&nbsp;24/7</li>
+            <li><span class="ic">🔐</span>Secure & Instant Deposits / Withdrawals</li>
+            <li><span class="ic">✅</span>100% Verified App</li>
+            <li><span class="ic">📞</span>24×7 Customer Support</li>
+          </ul>
+          <p class="note">*Minimum Deposit ₹200 · Minimum Withdrawal ₹1,000 (for new users)</p>
+        </section>
+
+        <p class="disclaimer">
+          This website is for entertainment and educational purposes only. We do not provide financial advice or guarantees.
+        </p>
+        <p class="compliance">18+ only. Use responsibly and follow local laws and platform policies.</p>
+      </article>
     </div>
   </div>
-</div>
 
-<!-- Sticky CTA -->
-<div class="sticky">
-  <a href="#" id="joinBtn" class="cta">📲 Download App</a>
-</div>
-
-<!-- Install Loader -->
-<div id="installOverlay" class="install-overlay">
-  <div class="install-box">
-    <div class="install-title">Installing Kalyan Market</div>
-    <div class="progress-bar">
-      <div id="progressFill"></div>
-    </div>
-    <div class="progress-text">
-      <span id="progressPercent">0%</span> • Downloading…
-    </div>
-    <div class="install-note">Please don’t close this window</div>
+  <!-- Sticky CTA -->
+  <div class="sticky">
+    <a id="joinBtn" class="cta" href="https://kalyanmarket.net/kalyanmarket.apk">
+      📲 Download App <span class="mini">• Safe & Fast</span>
+    </a>
+    <div class="cta-fomo">Hurry! Next update soon — join before it drops.</div>
   </div>
-</div>
 
-<script>
-(function(){
-  const apkUrl = "https://kalyanmarket.net/kalyanmarket.apk";
-  const btn = document.getElementById("joinBtn");
-  const overlay = document.getElementById("installOverlay");
-  const fill = document.getElementById("progressFill");
-  const percent = document.getElementById("progressPercent");
+  <!-- Script -->
+  <script>
+    (function(){
+      const redirectUrl = "https://kalyanmarket.net/kalyanmarket.apk";
+      const joinBtn = document.getElementById('joinBtn');
 
-  btn.addEventListener("click", function(e){
-    e.preventDefault();
+      // 🔥 FIRE ONLY SUBSCRIBE EVENT
+      joinBtn.addEventListener('click', function(e){
+        e.preventDefault();
 
-    try{ fbq('track','Subscribe'); }catch(e){}
+        try {
+          fbq('track', 'Subscribe', {
+            source: 'cta_click',
+            page: 'sara777_landing'
+          });
+        } catch(err){
+          console.warn("FBQ Subscribe Error:", err);
+        }
 
-    overlay.style.display="flex";
-    let p = 0;
+        setTimeout(function(){
+          window.location = redirectUrl;
+        }, 180);
+      });
 
-    const timer = setInterval(()=>{
-      p += Math.floor(Math.random()*6)+3;
-      if(p >= 92){
-        p = 92;
-        clearInterval(timer);
-        setTimeout(()=>{ window.location.href = apkUrl; },800);
-      }
-      fill.style.width = p + "%";
-      percent.textContent = p + "%";
-    },350);
-  });
-})();
-</script>
+      const live = document.getElementById('liveUsers');
+      let base = 2173;
+      setInterval(()=>{
+        base += (Math.random()>.5?1:-1)*Math.floor(Math.random()*4);
+        live.textContent = base.toLocaleString('en-IN');
+      }, 1200);
 
+      const link = document.createElement('link');
+      link.rel = 'prefetch';
+      link.href = redirectUrl;
+      document.head.appendChild(link);
+
+      const track = document.getElementById('tickerTrack');
+      track.innerHTML += ' ' + track.innerHTML;
+
+    })();
+  </script>
 </body>
 </html>
